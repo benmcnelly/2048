@@ -1,10 +1,12 @@
 @import url(fonts/clear-sans.css);
-html, body {
+body {
   margin: 0;
   padding: 0;
-  background: #999;
+  background: #999 url(http://i.imgur.com/MUj3VFA.gif);
+  background-size: cover;
   color: #fff;
   font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
+  text-shadow: 0px -1px 3px rgba(150, 150, 150, 0.93);
   font-size: 18px; }
 
 body {
@@ -56,7 +58,7 @@ h1.title {
 .score-container, .best-container {
   position: relative;
   display: inline-block;
-  background: #bbada0;
+  background: #333;
   padding: 15px 25px;
   font-size: 25px;
   height: 25px;
@@ -83,7 +85,7 @@ h1.title {
     font-size: 25px;
     line-height: 25px;
     font-weight: bold;
-    color: rgba(119, 110, 101, 0.9);
+    color: rgba(119, 110, 101, 0.88);
     z-index: 100;
     -webkit-animation: move-up 600ms ease-in;
     -moz-animation: move-up 600ms ease-in;
@@ -166,7 +168,6 @@ hr {
     right: 0;
     bottom: 0;
     left: 0;
-    background: rgba(238, 228, 218, 0.5);
     z-index: 100;
     text-align: center;
     -webkit-animation: fade-in 800ms ease 1200ms;
@@ -223,7 +224,7 @@ hr {
   margin-right: 15px;
   float: left;
   border-radius: 3px;
-  background: rgba(238, 228, 218, 0.35); }
+  background: #333; }
   .grid-cell:last-child {
     margin-right: 0; }
 
@@ -309,9 +310,9 @@ hr {
   -moz-transition-property: -moz-transform;
   transition-property: transform; }
   .tile .tile-inner {
-    border-radius: 3px;
-    background: #eee4da;
-    text-align: center;
+    border-radius: 5px;
+    background: #fff;
+    text-align: right;
     font-weight: bold;
     z-index: 10;
     font-size: 25px; }
@@ -334,7 +335,7 @@ hr {
   background-size:cover;}
   .tile.tile-64 .tile-inner {
     background-size:cover;
-    background: #f65e3b url(http://i.imgur.com/pDKzM3W.gif) center; }
+    background: #f65e3b url(http://i.imgur.com/5NbDIOS.gif) center; }
   .tile.tile-128 .tile-inner {
     background-size:cover;
     background: #edcf72 url(http://i.imgur.com/LYXLzOz.gif) right;
@@ -691,3 +692,55 @@ hr {
     margin-top: 90px !important; }
   .game-message .lower {
     margin-top: 30px !important; } }
+
+
+
+.tile.tile--4 .tile-inner {
+    background: url(http://i.imgur.com/7LDKKjt.gif)top center ;
+    background-size:cover;
+    box-shadow: 0 0 30px 10px rgba(206,200,18,0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
+
+.tile.tile--8 .tile-inner {
+    background: url(http://i.imgur.com/xlTOuX6.gif)top center ;
+    background-size:cover;
+    box-shadow: 0 0 30px 10px rgba(206,200,18,0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
+
+.tile.tile--16 .tile-inner {
+    background: url(http://i.imgur.com/YV0573Y.jpg)top center ;
+    background-size:cover;
+    box-shadow: 0 0 30px 10px rgba(206,200,18,0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
+
+.tile.tile--32 .tile-inner {
+    background: url(http://i.imgur.com/7lmctIZ.gif)top center ;
+    background-size:cover;
+    box-shadow: 0 0 30px 10px rgba(206,200,18,0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
+
+.tile.tile--64 .tile-inner {
+    background: url(http://i.imgur.com/sF2y0Fy.jpg)top center ;
+    background-size:cover;
+    box-shadow: 0 0 30px 10px rgba(206,200,18,0), inset 0 0 0 1px rgba(255, 255, 255, 0); }                
+
+.tile.tile--128 .tile-inner {
+    background: url(http://i.imgur.com/w3D1Auz.jpg)top center ;
+    background-size:cover;
+    box-shadow: 0 0 30px 10px rgba(206,200,18,0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
+
+.tile.tile--256 .tile-inner {
+    background: url(http://i.imgur.com/qcaeD.gif)top center ;
+    background-size:cover;
+    box-shadow: 0 0 30px 10px rgba(206,200,18,0), inset 0 0 0 1px rgba(255, 255, 255, 0); }    
+
+.tile.tile--512 .tile-inner {
+    background: url(http://i.imgur.com/4AU4a.gif)top center ;
+    background-size:cover;
+    box-shadow: 0 0 30px 10px rgba(206,200,18,0), inset 0 0 0 1px rgba(255, 255, 255, 0); }    
+
+.tile.tile--1024 .tile-inner {
+    background: url(http://i.imgur.com/igQzB.gif)top center ;
+    background-size:cover;
+    box-shadow: 0 0 30px 10px rgba(206,200,18,0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
+
+.tile.tile--2048 .tile-inner {
+    background: url(http://i.imgur.com/DVAQn.gif)top center ;
+    background-size:cover;
+    box-shadow: 0 0 30px 10px rgba(206,200,18,0), inset 0 0 0 1px rgba(255, 255, 255, 0); }        
